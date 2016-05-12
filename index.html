@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lucas J Sailer</title>
+<link href="style.css" rel="stylesheet" type"text/css">
+<script src="modernizr.custom.js"></script>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Add a + / - button that changes display block / none when button is clicked --->
+
+<script> 
+    function showFWC() { 
+        if(document.getElementById('portfolio-item-display-container-FWC').style.display=='none') { 
+            document.getElementById('portfolio-item-display-container-FWC').style.display='block';
+			document.getElementById('expand-button-container-FWC').style.display='none'; 
+			document.getElementById('expand-button-container-FWC-1').style.display='block';  
+        } 
+        return false;
+    } 
+    function hideFWC() { 
+        if(document.getElementById('portfolio-item-display-container-FWC').style.display=='block') { 
+            document.getElementById('portfolio-item-display-container-FWC').style.display='none';
+			document.getElementById('expand-button-container-FWC').style.display='block'; 
+			document.getElementById('expand-button-container-FWC-1').style.display='none'; 
+        } 
+        return false;
+    }   
+</script>
+
+<script> 
+    function showBDC() { 
+        if(document.getElementById('portfolio-item-display-container-BDC').style.display=='none') { 
+            document.getElementById('portfolio-item-display-container-BDC').style.display='block';
+			document.getElementById('expand-button-container-BDC').style.display='none'; 
+			document.getElementById('expand-button-container-BDC-1').style.display='block';  
+        } 
+        return false;
+    } 
+    function hideBDC() { 
+        if(document.getElementById('portfolio-item-display-container-BDC').style.display=='block') { 
+            document.getElementById('portfolio-item-display-container-BDC').style.display='none';
+			document.getElementById('expand-button-container-BDC').style.display='block'; 
+			document.getElementById('expand-button-container-BDC-1').style.display='none'; 
+        } 
+        return false;
+    }   
+</script>
+
+<script> 
+    function showPP() { 
+        if(document.getElementById('portfolio-item-display-container-PP').style.display=='none') { 
+            document.getElementById('portfolio-item-display-container-PP').style.display='block';
+			document.getElementById('expand-button-container-PP').style.display='none'; 
+			document.getElementById('expand-button-container-PP-1').style.display='block';  
+        } 
+        return false;
+    } 
+    function hidePP() { 
+        if(document.getElementById('portfolio-item-display-container-PP').style.display=='block') { 
+            document.getElementById('portfolio-item-display-container-PP').style.display='none';
+			document.getElementById('expand-button-container-PP').style.display='block'; 
+			document.getElementById('expand-button-container-PP-1').style.display='none'; 
+        } 
+        return false;
+    }   
+</script>
+
+<script> 
+    function showCC() { 
+        if(document.getElementById('portfolio-item-display-container-CC').style.display=='none') { 
+            document.getElementById('portfolio-item-display-container-CC').style.display='block';
+			document.getElementById('expand-button-container-CC').style.display='none'; 
+			document.getElementById('expand-button-container-CC-1').style.display='block';  
+        } 
+        return false;
+    } 
+    function hideCC() { 
+        if(document.getElementById('portfolio-item-display-container-CC').style.display=='block') { 
+            document.getElementById('portfolio-item-display-container-CC').style.display='none';
+			document.getElementById('expand-button-container-CC').style.display='block'; 
+			document.getElementById('expand-button-container-CC-1').style.display='none'; 
+        } 
+        return false;
+    }   
+</script>
+
+<script> 
+    function showDM() { 
+        if(document.getElementById('portfolio-item-display-container-DM').style.display=='none') { 
+            document.getElementById('portfolio-item-display-container-DM').style.display='block';
+			document.getElementById('expand-button-container-DM').style.display='none'; 
+			document.getElementById('expand-button-container-DM-1').style.display='block';  
+        } 
+        return false;
+    } 
+    function hideDM() { 
+        if(document.getElementById('portfolio-item-display-container-DM').style.display=='block') { 
+            document.getElementById('portfolio-item-display-container-DM').style.display='none';
+			document.getElementById('expand-button-container-DM').style.display='block'; 
+			document.getElementById('expand-button-container-DM-1').style.display='none'; 
+        } 
+        return false;
+    }   
+</script>
+</head>
+
+<body>
+<div id="main-container">
+	<div class="menu-container">
+    	<div class="menu">
+        	<ul class="menu-unordered-list">
+            	<li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-1">ABOUT</a></li>
+            
+            	<li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-2">SERVICES</a></li>
+                
+                <li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-4">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="logo-container">
+    	<div class="name-logo">
+        	<img class="name-image" src="images/Name.png" alt="Lucas"/>
+        </div>
+    </div>
+    <div class="quote-container">
+    	<h1 class="quote-style">I am a web developer. I am a designer.<br>
+								I like fun projects. I like fun people.<br>
+								I like web developing and designing<br> 
+                                fun projects with fun people.</h1>
+    </div>
+    
+    <div class="section-divider-container">
+    	<div class="section-divider"></div>
+    </div>
+    <div id="section-1" class="section-1">
+    	<div class="title-container">
+        	<h2 class="title-style">ABOUT</h2>
+            <div class="section-container">
+            	<div class="about-container">
+                	<div class="about-image"></div>
+                    <div class="about-me">
+                    	<h2 class="h3-text">Hi.</h2>
+                        <span class="span-text">I am a Designer / Web Developer located in Vancouver, Canada. I am a creative with a passion for design.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-divider-container">
+    	<div class="section-divider"></div>
+    </div>
+    <div id="section-2" class="section-2">
+    	<div class="title-container">
+        	<h2 class="title-style">SERVICES</h2>
+            <div class="section-container">
+            
+            		<div class="about-skills-container">
+                    	<h3 style="margin-bottom:20px;" class="h3-text">What I can do.</h3>
+                    	<div class="about-design-container">
+                        	<div class="about-design-left">
+                            	<img id="design-img" src="images/Design-Animation.png" alt="design">
+                            </div>
+                            <div class="about-design-right">
+                            	<h3 class="h3-skills-text">Design what you want.</h3>
+                                <span class="span-skills-text">I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</span>
+                            </div>
+                        </div>
+                        <div class="about-developement-container">
+                            <div class="about-webdev-left">
+                            	<h3 class="h3-skills-text">Develop what you need.</h3>
+                                <span class="span-skills-text">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</span>
+                            </div>
+                            <div class="about-webdev-right">
+                            	<img id="design-img" src="images/Development-Animation.png" alt="developement">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <div style="margin-top:90px;" class="section-divider-container">
+    	<div class="section-divider"></div>
+    </div>
+    <div style="margin-bottom:100px;" id="section-3" class="section-3">
+    	<div class="title-container">
+        	<h2 class="title-style">PORTFOLIO</h2>
+        </div>
+        <div class="section-3-container">
+        	<h2 class="portfolio-intructions">CLICK ( + ) TO EXPAND</h2>
+            <!----------------------FWC------------------------>
+        	<div class="portfolio-item-title-container">
+            	<div class="portfolio-item-title-container-inner">
+                    <a onclick="showFWC();">
+                    	<div id="expand-button-container-FWC"></div>
+                    </a>
+                    <a onclick="hideFWC();">
+                    	<div style="display:none;" id="expand-button-container-FWC-1"></div>
+                    </a>
+                    <p class="portfolio-item-title">Fireworks Central</p>
+                </div>
+            </div>
+            <div style="display: none" id="portfolio-item-display-container-FWC">
+            </div>
+           	<!----------------------BDC------------------------>
+            <div class="portfolio-item-title-container">
+            	<div class="portfolio-item-title-container-inner">
+                	<a onclick="showBDC();">
+                    	<div id="expand-button-container-BDC"></div>
+                    </a>
+                    <a onclick="hideBDC();">
+                    	<div style="display:none;" id="expand-button-container-BDC-1"></div>
+                    </a>
+                    <p class="portfolio-item-title">Brookswood Denture Clinic</p>
+                </div>
+            </div>
+            <div  style="display: none" id="portfolio-item-display-container-BDC">
+            </div>
+            <!----------------------PP------------------------>
+            <div class="portfolio-item-title-container">
+            	<dic class="portfolio-item-title-container-inner">
+                	<a onclick="showPP();">
+                    	<div id="expand-button-container-PP"></div>
+                    </a>
+                    <a onclick="hidePP();">
+                    	<div style="display:none;" id="expand-button-container-PP-1"></div>
+                    </a>
+                    <p class="portfolio-item-title">Panel Project</p>
+                </div>
+            </div>
+            <div  style="display: none" id="portfolio-item-display-container-PP">
+            </div>
+            <!----------------------CC------------------------>
+            <div class="portfolio-item-title-container">
+            	<div href="#" class="portfolio-item-title-container-inner">
+                	<a onclick="showCC();">
+                    	<div id="expand-button-container-CC"></div>
+                    </a>
+                    <a onclick="hideCC();">
+                    	<div style="display:none;" id="expand-button-container-CC-1"></div>
+                    </a>
+                    <p class="portfolio-item-title">Copped Creations</p>
+                </div>
+            </div>
+            <div  style="display: none" id="portfolio-item-display-container-CC">
+            </div>
+            <!----------------------DM------------------------>
+            <div class="portfolio-item-title-container border-bottom">
+            	<div href="#" class="portfolio-item-title-container-inner">
+                	<a onclick="showDM();">
+                    	<div id="expand-button-container-DM"></div>
+                    </a>
+                    <a onclick="hideDM();">
+                    	<div style="display:none;" id="expand-button-container-DM-1"></div>
+                    </a>
+                    <p class="portfolio-item-title">Daily Motive</p>
+                </div>
+            </div>
+            <div  style="display: none" id="portfolio-item-display-container-DM">
+            </div>
+            <!----------------------END------------------------>
+        </div>
+    </div>   
+    
+    <div class="section-divider-container">
+    	<div class="section-divider"></div>
+    </div>
+    <div id="section-4" class="section-4">
+    	<div class="title-container">
+        	<h2 class="title-style">CONTACT</h2>
+        </div>
+        <div class="section-4-container">
+        	<form action="/my-handling-form-page" method="post">
+    			<div>
+        			<input class="input-container" placeholder="What's your name?" type="text" id="contact-text" required/>
+    			</div>
+    			<div>
+        			<input class="input-container" placeholder="Your email address" type="email" id="contact-text" required/>
+    			</div>
+    			<div>
+        			<textarea class="input-container-message" id="contact-text" placeholder="Your message here" required></textarea>
+    			</div>
+    
+    			<div class="button">
+        			<button  class="input-container-button" type="submit">TALK TO ME</button>
+    			</div>
+			</form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+<script src="toucheffects.js"></script>
+</body>
+</html>
