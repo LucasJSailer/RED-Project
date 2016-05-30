@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@media (max-width: 650px) {
+	.title {
+		font-size: 7vw;
+	}
+	
+	.text {
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+	
+	.services-section-container {
+		width: 75vw;
+	}
+	
+	.services-text-container {
+    width: 75vw;
+	}
+	
+	.about-text-container {
+    width: 75vw;
+	}
+	
+	.name-image {
+	margin-top: 30vh; 
+	}
+}
+
+/* iPhone 5 Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.title {
+		font-size: 7vw;
+	}
+	
+	.text {
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+	
+	.services-section-container {
+		width: 75vw;
+	}
+	
+	.services-text-container {
+    width: 75vw;
+	}
+	
+	.about-text-container {
+    width: 75vw;
+	}
+	
+	.menu-full {
+		display: none;
+	}
+	
+	.menu-mobile {
+		display: block;
+	}
+	
+	.menu-list-text {
+		font-size: 50px;
+		line-height: 100px;
+	}
+	
+	.menu-list{
+		background-color:black;
+	}
+	
+	.name-image {
+		max-width: 70vw;
+	}
+	
+	.intro-text-container {
+		width: 50vw;
+	}
+	
+	.title {
+		font-size: 7vw;
+	}
+	
+	.text {
+		font-size: 5vw;
+		line-height: 6vw;
+	}
+	
+	.about-image{
+		width: 40vw;
+    	height: 40vw;
+		border: 5px solid white;
+	}
+	
+	.services-img-container {
+    width: 30vw;
+    height: 30vw;
+	}
+	
+	.services-image-clearfix {
+    	width: 30vw;
+    	height: 30vw;
+	}
+	
+	.name-image {
+	margin-top: 30vh; 
+	}
+}
+
